@@ -140,6 +140,11 @@ class TestPrintPages(unittest.TestCase):
         self.assertEqual(res, "Error")
         return
 
+    def test_7(self):
+        res = book_print_settings(7)
+        self.assertEqual(res, [(0, 1), (6, 3), '@', (2, 7), (4, 5)])
+        return
+
 
 if __name__ == '__main__':
     unittest.main()

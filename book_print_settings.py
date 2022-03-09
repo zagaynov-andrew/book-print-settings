@@ -1,7 +1,7 @@
 import math
 
 
-def book_print_settings(nb_pages, nb_blocks):
+def book_print_settings(nb_pages, nb_blocks=1):
     if nb_pages < 0 or nb_blocks < 0:
         return 'Error'
     if nb_pages == 0 or nb_blocks == 0:
