@@ -15,7 +15,7 @@ git clone https://github.com/zagaynov-andrew/book-print-settings.git && cd book-
 python test.py
 ```
 
-:pushpin: Для успешной сборки вам понадобится установленный python 3
+:pushpin: Для успешного запуска вам понадобится установленный python 3
 
 ## :anger: Remarks
 
